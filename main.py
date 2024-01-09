@@ -1,14 +1,9 @@
-def print_hi(name):
-    username = "Andy"
-    print(f'Hi, {name}, I am {username}')
-
-
-def arithmetic():
-    num1 = int(input('Enter first number: '))
-    num2 = int(input('Enter second number: '))
-    print("The value of sum of numbers is: ", num1 + num2)
+# python lists
+def lists():
+    students = ["Ken", "John", "Allan", "Kelly", "Andy"]
+    print(students[0:3])  # prints the list 0 inclusive, 3 exclusive
+    print(students[-1])  # prints the last element in the list
 
 
 if __name__ == '__main__':
-    print_hi('Musyoka')
-    arithmetic()
+    lists()
